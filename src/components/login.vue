@@ -64,7 +64,8 @@ export default {
   },
   methods: {
     resetLoginForm() {
-      // console.log(this);
+      console.log(this);
+      // this.$refs.loginFormRef 获取表单
       this.$refs.loginFormRef.resetFields();
     },
     login() {
